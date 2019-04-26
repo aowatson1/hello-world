@@ -1,0 +1,24 @@
+{
+  "name": "AaronWatson",
+  "version": "1.0.0",
+  "description": "Aaron Watson\r [the arch](https://i.imgur.com/L6zl0.jpg)\r some text \r my bed is calling...trying to ignore it\r It is 10:16pm, why am I up already?    \r It's 6:10pm...\r It's 6:12Pm...\r It's 6:14pm...\r It's 6:17pm...\r This is a test because Phill sucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aowatson1/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aowatson1/hello-world/issues"
+  },
+  "homepage": "https://github.com/aowatson1/hello-world#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
