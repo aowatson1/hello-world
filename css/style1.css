@@ -1,0 +1,13 @@
+h1{
+    color:mediumvioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color:mediumvioletred;
+}
+
+.highlight{
+    background-color: yellow;
+    color: blue;
+}
