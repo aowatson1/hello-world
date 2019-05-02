@@ -10,6 +10,9 @@ img{
 iframe{
     width: 100%;
 }
+li{
+    display: inline;
+}
 
 h2{
     color:salmon;
@@ -41,8 +44,14 @@ body{
 
 #navigation{
     background-color: coral;
-    
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+ }
+
+#navigation li{
+    display: inline;
 }
 
 #header{
