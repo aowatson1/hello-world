@@ -48,8 +48,25 @@ body{
     right: 0;
  }
 
-#navigation li{
-    display: inline;
+#navigation li:first-child {
+    background-color: maroon;
+}
+
+#navigation li:nth-child(2) {
+    background-color: indianred;
+}
+
+li:first-child :hover{
+    background-color: cyan;
+}
+
+
+#navigation ul ul   {
+    display: none;
+}
+
+#navigation:hover {
+    background-color: royalblue;
 }
 
 #header{
