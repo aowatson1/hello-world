@@ -76,7 +76,7 @@ li:first-child :hover {
 
 #navigation:hover {
     background-color: royalblue;
-}
+    }
 
 #navigation a:hover + ul, 
 #navigation a + ul:hover {
