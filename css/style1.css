@@ -1,45 +1,47 @@
 h1{
-    color:greenyellow;
+    color: cornflowerblue;
+    font-style: inherit
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-img{
-   display: block;
-   margin: 0 auto;
-   max-width: 500px;;
-    width: 100%;
+h2{
+    text-align: center;
+    color:salmon;
+    font-size:20px;
 }
-
+img{
+   max-width: 100%;
+}
+.image{
+    width: 100%
+}
 iframe{
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400;
     width: 100%;
 }
 li{
     display: inline;
 }
-
-h2{
-    color:salmon;
-    font-size:20px;
-    
-}
-
 .highlight{
-    background-color: yellow;
-    color: navy;
-    font-size: 25px;
-    background-color: greenyellow;
+    background-color: rgb(82, 119, 95);
 }
-
-body{
-    background-color: greenyellow;
+.inforceful{
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
 }
-
+body {
+    margin: 0;
+    background-color: gold;
+}
 .container{
    max-width: 900px;
     width: 100%;
     margin: 0 auto;
 }
-
 #navigation{
     background-color: coral;
     position: fixed;
@@ -47,15 +49,16 @@ body{
     top: 0;
     right: 0;
  }
-
+ .center{
+     text-align: center;
+     display: block;
+ }
  #navigation .container > ul >li {
      display: inline;
  }
-
 #navigation li:first-child {
     background-color: maroon;
 }
-
 #navigation li:nth-child(2) {
     background-color: indianred;
 }
@@ -63,37 +66,30 @@ body{
 li:first-child :hover {
     background-color: cyan;
 }
-
 #navigation li {
     position: relative;
 }
-
 #navigation ul ul  {
     display: none;
     position: absolute;
     right: 0;
 }
-
 #navigation:hover {
-    background-color: royalblue;
-    }
-
+    background-color: hotpink;
+}
 #navigation a:hover + ul, 
 #navigation a + ul:hover {
     display: block;
 }
-
 #header{
     background-color: navy;
     padding:50px;
     border:5px solid navajowhite;
 }
-
 #content{
     background-color: papayawhip;
     padding:8px;
 }
-
 #footer{
     background-color: honeydew;
     border: 40px solid wheat;
