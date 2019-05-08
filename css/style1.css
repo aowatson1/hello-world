@@ -1,12 +1,12 @@
 h1{
     color: cornflowerblue;
     font-style: inherit
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
 }
 h2{
     text-align: center;
     color:salmon;
-    font-size:20px;
+    font-size:15px;
 }
 img{
    max-width: 100%;
